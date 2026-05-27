@@ -1,2 +1,29 @@
-# linux-release-monitor
-Automated Linux Release Monitoring System built with Python. Fetches latest Linux OS release information from multiple distributions, generates HTML reports, and sends scheduled email notifications using Cron Jobs on Linux servers.
+# Linux Release Monitor
+
+Automated Linux distribution release monitoring and email notification system.
+
+This project collects release information from multiple Linux distributions such as:
+
+- Ubuntu
+- RHEL
+- Rocky Linux
+- AlmaLinux
+- openEuler
+- SUSE
+- OpenAnolis
+
+Features:
+- Automated release data collection
+- HTML report generation
+- Scheduled cron job execution
+- Email notifications
+- Logging support
+- Virtual environment support
+
+Tech Stack:
+- Python
+- BeautifulSoup
+- Requests
+- Pandas
+- Cron Jobs
+- SMTP Email Automation
